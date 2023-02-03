@@ -1,0 +1,15 @@
+transformers
+pickle5
+tqdm
+numpy
+docopt
+scikit-learn
+torch
+h5py
+joblib
+scipy
+seaborn
+matplotlib
+allennlp
+overrides==3.0.0
+gensim==3.8.1
