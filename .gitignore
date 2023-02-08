@@ -358,6 +358,10 @@ $RECYCLE.BIN/
 *.pkl
 *.npy
 *.zip
+*.pdf
+*.png
+*.sh
+*.out
 data/bert_encode_biasbios
 data/deepmoji
 data/emoji_sent_race_0.5
@@ -492,7 +496,11 @@ data/saved_models
 # notebooks/notebook_cca_generalTests.ipynb
 # notebooks/notebook_kcca_generalTests.ipynb
 notebooks_saved/
-notebooks/
+notebooks/.ipynb_checkpoints/
+notebooks/word-embedding/
+notebooks/temp/
+notebooks/*.pdf
+
 notebooks/word-embedding
 notebooks/*.pdf
 
