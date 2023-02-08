@@ -507,232 +507,248 @@ notebooks/*.pdf
 
 
 
-src/
-src/allen_logs/.DS_Store
-src/allen_logs/deep_moji_0.5/.DS_Store
-src/allen_logs/deep_moji_0.5/best.th
-src/allen_logs/deep_moji_0.5/config.json
-src/allen_logs/deep_moji_0.5/log/train/events.out.tfevents.1626949070.shuns-MacBook-Pro-2.local
-src/allen_logs/deep_moji_0.5/log/validation/events.out.tfevents.1626949070.shuns-MacBook-Pro-2.local
-src/allen_logs/deep_moji_0.5/metrics.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_0.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_1.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_10.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_11.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_12.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_13.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_14.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_2.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_3.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_4.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_5.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_6.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_7.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_8.json
-src/allen_logs/deep_moji_0.5/metrics_epoch_9.json
-src/allen_logs/deep_moji_0.5/model.tar.gz
-src/allen_logs/deep_moji_0.5/model_state_epoch_0.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_1.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_10.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_11.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_12.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_13.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_14.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_2.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_3.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_4.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_5.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_6.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_7.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_8.th
-src/allen_logs/deep_moji_0.5/model_state_epoch_9.th
-src/allen_logs/deep_moji_0.5/vocabulary/labels.txt
-src/allen_logs/deep_moji_0.5/training_state_epoch_9.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_8.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_7.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_6.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_5.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_4.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_3.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_2.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_14.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_13.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_12.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_11.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_10.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_1.th
-src/allen_logs/deep_moji_0.5/training_state_epoch_0.th
-src/allen_logs/deep_moji_0.5/stdout.log
-src/allen_logs/deep_moji_0.5/stderr.log
-src/allen_logs/deep_moji_0.5/vocabulary/non_padded_namespaces.txt
-src/allen_logs/deep_moji_0.6/.DS_Store
-src/allen_logs/deep_moji_0.6/best.th
-src/allen_logs/deep_moji_0.6/config.json
-src/allen_logs/deep_moji_0.6/log/train/events.out.tfevents.1626956138.shuns-MacBook-Pro-2.local
-src/allen_logs/deep_moji_0.6/log/validation/events.out.tfevents.1626956138.shuns-MacBook-Pro-2.local
-src/allen_logs/deep_moji_0.6/metrics.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_0.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_1.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_10.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_11.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_12.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_13.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_14.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_2.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_3.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_4.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_5.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_6.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_7.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_8.json
-src/allen_logs/deep_moji_0.6/metrics_epoch_9.json
-src/allen_logs/deep_moji_0.6/model.tar.gz
-src/allen_logs/deep_moji_0.6/model_state_epoch_0.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_1.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_10.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_11.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_12.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_13.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_14.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_2.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_3.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_4.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_5.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_6.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_7.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_8.th
-src/allen_logs/deep_moji_0.6/model_state_epoch_9.th
-src/allen_logs/deep_moji_0.6/stderr.log
-src/allen_logs/deep_moji_0.6/stdout.log
-src/allen_logs/deep_moji_0.6/training_state_epoch_0.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_1.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_10.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_11.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_12.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_13.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_14.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_2.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_3.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_4.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_5.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_6.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_7.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_8.th
-src/allen_logs/deep_moji_0.6/training_state_epoch_9.th
-src/allen_logs/deep_moji_0.6/vocabulary/labels.txt
-src/allen_logs/deep_moji_0.6/vocabulary/non_padded_namespaces.txt
-src/allen_logs/deep_moji_0.7/.DS_Store
-src/allen_logs/deep_moji_0.7/best.th
-src/allen_logs/deep_moji_0.7/config.json
-src/allen_logs/deep_moji_0.7/log/train/events.out.tfevents.1626960688.shuns-MacBook-Pro-2.local
-src/allen_logs/deep_moji_0.7/log/validation/events.out.tfevents.1626960688.shuns-MacBook-Pro-2.local
-src/allen_logs/deep_moji_0.7/metrics.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_0.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_1.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_10.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_11.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_12.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_13.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_14.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_2.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_3.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_4.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_5.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_6.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_7.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_8.json
-src/allen_logs/deep_moji_0.7/metrics_epoch_9.json
-src/allen_logs/deep_moji_0.7/model.tar.gz
-src/allen_logs/deep_moji_0.7/model_state_epoch_0.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_1.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_10.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_11.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_12.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_13.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_14.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_2.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_3.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_4.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_5.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_6.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_7.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_8.th
-src/allen_logs/deep_moji_0.7/model_state_epoch_9.th
-src/allen_logs/deep_moji_0.7/stderr.log
-src/allen_logs/deep_moji_0.7/stdout.log
-src/allen_logs/deep_moji_0.7/training_state_epoch_0.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_1.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_10.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_11.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_12.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_13.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_14.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_2.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_3.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_4.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_5.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_6.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_7.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_8.th
-src/allen_logs/deep_moji_0.7/training_state_epoch_9.th
-src/allen_logs/deep_moji_0.7/vocabulary/labels.txt
-src/allen_logs/deep_moji_0.7/vocabulary/non_padded_namespaces.txt
-src/allen_logs/deep_moji_0.8/.DS_Store
-src/allen_logs/deep_moji_0.8/best.th
-src/allen_logs/deep_moji_0.8/config.json
-src/allen_logs/deep_moji_0.8/log/train/events.out.tfevents.1626965420.shuns-MacBook-Pro-2.local
-src/allen_logs/deep_moji_0.8/log/validation/events.out.tfevents.1626965420.shuns-MacBook-Pro-2.local
-src/allen_logs/deep_moji_0.8/metrics.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_0.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_1.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_10.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_11.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_12.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_13.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_14.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_2.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_3.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_4.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_5.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_6.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_7.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_8.json
-src/allen_logs/deep_moji_0.8/metrics_epoch_9.json
-src/allen_logs/deep_moji_0.8/model.tar.gz
-src/allen_logs/deep_moji_0.8/model_state_epoch_0.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_1.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_10.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_11.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_12.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_13.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_14.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_2.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_3.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_4.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_5.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_6.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_7.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_8.th
-src/allen_logs/deep_moji_0.8/model_state_epoch_9.th
-src/allen_logs/deep_moji_0.8/stderr.log
-src/allen_logs/deep_moji_0.8/stdout.log
-src/allen_logs/deep_moji_0.8/training_state_epoch_0.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_1.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_10.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_11.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_12.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_13.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_14.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_2.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_3.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_4.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_5.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_6.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_7.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_8.th
-src/allen_logs/deep_moji_0.8/training_state_epoch_9.th
-src/allen_logs/deep_moji_0.8/vocabulary/non_padded_namespaces.txt
-src/allen_logs/deep_moji_0.8/vocabulary/labels.txt
+# src/
+# src/allen_logs/.DS_Store
+# src/allen_logs/deep_moji_0.5/.DS_Store
+# src/allen_logs/deep_moji_0.5/best.th
+# src/allen_logs/deep_moji_0.5/config.json
+# src/allen_logs/deep_moji_0.5/log/train/events.out.tfevents.1626949070.shuns-MacBook-Pro-2.local
+# src/allen_logs/deep_moji_0.5/log/validation/events.out.tfevents.1626949070.shuns-MacBook-Pro-2.local
+# src/allen_logs/deep_moji_0.5/metrics.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_0.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_1.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_10.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_11.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_12.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_13.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_14.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_2.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_3.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_4.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_5.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_6.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_7.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_8.json
+# src/allen_logs/deep_moji_0.5/metrics_epoch_9.json
+# src/allen_logs/deep_moji_0.5/model.tar.gz
+# src/allen_logs/deep_moji_0.5/model_state_epoch_0.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_1.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_10.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_11.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_12.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_13.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_14.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_2.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_3.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_4.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_5.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_6.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_7.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_8.th
+# src/allen_logs/deep_moji_0.5/model_state_epoch_9.th
+# src/allen_logs/deep_moji_0.5/vocabulary/labels.txt
+# src/allen_logs/deep_moji_0.5/training_state_epoch_9.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_8.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_7.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_6.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_5.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_4.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_3.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_2.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_14.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_13.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_12.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_11.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_10.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_1.th
+# src/allen_logs/deep_moji_0.5/training_state_epoch_0.th
+# src/allen_logs/deep_moji_0.5/stdout.log
+# src/allen_logs/deep_moji_0.5/stderr.log
+# src/allen_logs/deep_moji_0.5/vocabulary/non_padded_namespaces.txt
+# src/allen_logs/deep_moji_0.6/.DS_Store
+# src/allen_logs/deep_moji_0.6/best.th
+# src/allen_logs/deep_moji_0.6/config.json
+# src/allen_logs/deep_moji_0.6/log/train/events.out.tfevents.1626956138.shuns-MacBook-Pro-2.local
+# src/allen_logs/deep_moji_0.6/log/validation/events.out.tfevents.1626956138.shuns-MacBook-Pro-2.local
+# src/allen_logs/deep_moji_0.6/metrics.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_0.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_1.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_10.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_11.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_12.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_13.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_14.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_2.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_3.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_4.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_5.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_6.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_7.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_8.json
+# src/allen_logs/deep_moji_0.6/metrics_epoch_9.json
+# src/allen_logs/deep_moji_0.6/model.tar.gz
+# src/allen_logs/deep_moji_0.6/model_state_epoch_0.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_1.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_10.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_11.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_12.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_13.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_14.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_2.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_3.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_4.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_5.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_6.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_7.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_8.th
+# src/allen_logs/deep_moji_0.6/model_state_epoch_9.th
+# src/allen_logs/deep_moji_0.6/stderr.log
+# src/allen_logs/deep_moji_0.6/stdout.log
+# src/allen_logs/deep_moji_0.6/training_state_epoch_0.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_1.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_10.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_11.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_12.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_13.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_14.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_2.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_3.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_4.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_5.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_6.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_7.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_8.th
+# src/allen_logs/deep_moji_0.6/training_state_epoch_9.th
+# src/allen_logs/deep_moji_0.6/vocabulary/labels.txt
+# src/allen_logs/deep_moji_0.6/vocabulary/non_padded_namespaces.txt
+# src/allen_logs/deep_moji_0.7/.DS_Store
+# src/allen_logs/deep_moji_0.7/best.th
+# src/allen_logs/deep_moji_0.7/config.json
+# src/allen_logs/deep_moji_0.7/log/train/events.out.tfevents.1626960688.shuns-MacBook-Pro-2.local
+# src/allen_logs/deep_moji_0.7/log/validation/events.out.tfevents.1626960688.shuns-MacBook-Pro-2.local
+# src/allen_logs/deep_moji_0.7/metrics.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_0.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_1.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_10.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_11.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_12.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_13.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_14.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_2.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_3.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_4.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_5.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_6.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_7.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_8.json
+# src/allen_logs/deep_moji_0.7/metrics_epoch_9.json
+# src/allen_logs/deep_moji_0.7/model.tar.gz
+# src/allen_logs/deep_moji_0.7/model_state_epoch_0.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_1.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_10.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_11.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_12.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_13.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_14.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_2.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_3.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_4.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_5.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_6.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_7.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_8.th
+# src/allen_logs/deep_moji_0.7/model_state_epoch_9.th
+# src/allen_logs/deep_moji_0.7/stderr.log
+# src/allen_logs/deep_moji_0.7/stdout.log
+# src/allen_logs/deep_moji_0.7/training_state_epoch_0.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_1.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_10.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_11.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_12.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_13.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_14.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_2.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_3.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_4.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_5.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_6.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_7.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_8.th
+# src/allen_logs/deep_moji_0.7/training_state_epoch_9.th
+# src/allen_logs/deep_moji_0.7/vocabulary/labels.txt
+# src/allen_logs/deep_moji_0.7/vocabulary/non_padded_namespaces.txt
+# src/allen_logs/deep_moji_0.8/.DS_Store
+# src/allen_logs/deep_moji_0.8/best.th
+# src/allen_logs/deep_moji_0.8/config.json
+# src/allen_logs/deep_moji_0.8/log/train/events.out.tfevents.1626965420.shuns-MacBook-Pro-2.local
+# src/allen_logs/deep_moji_0.8/log/validation/events.out.tfevents.1626965420.shuns-MacBook-Pro-2.local
+# src/allen_logs/deep_moji_0.8/metrics.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_0.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_1.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_10.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_11.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_12.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_13.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_14.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_2.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_3.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_4.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_5.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_6.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_7.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_8.json
+# src/allen_logs/deep_moji_0.8/metrics_epoch_9.json
+# src/allen_logs/deep_moji_0.8/model.tar.gz
+# src/allen_logs/deep_moji_0.8/model_state_epoch_0.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_1.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_10.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_11.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_12.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_13.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_14.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_2.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_3.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_4.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_5.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_6.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_7.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_8.th
+# src/allen_logs/deep_moji_0.8/model_state_epoch_9.th
+# src/allen_logs/deep_moji_0.8/stderr.log
+# src/allen_logs/deep_moji_0.8/stdout.log
+# src/allen_logs/deep_moji_0.8/training_state_epoch_0.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_1.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_10.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_11.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_12.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_13.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_14.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_2.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_3.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_4.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_5.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_6.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_7.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_8.th
+# src/allen_logs/deep_moji_0.8/training_state_epoch_9.th
+# src/allen_logs/deep_moji_0.8/vocabulary/non_padded_namespaces.txt
+# src/allen_logs/deep_moji_0.8/vocabulary/labels.txt
+
+src/__pycache__
+src/.ipynb_checkpoints
+src/temp
+
+
+
+
+
+
+
+
+
+
+
+
 
 .DS_Store
 DebiasMulticlassWordEmbedding
