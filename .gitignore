@@ -1,124 +1,500 @@
+# Created by https://www.gitignore.io/api/git,linux,macos,python,windows,pycharm
+# Edit at https://www.gitignore.io/?templates=git,linux,macos,python,windows,pycharm
 
-data/
-data/.DS_Store
-data/bert_encode_biasbios/dev_avg.npy
-data/bert_encode_biasbios/dev_cls.npy
-data/bert_encode_biasbios/test_avg.npy
-data/bert_encode_biasbios/test_cls.npy
-data/bert_encode_biasbios/train_avg.npy
-data/bert_encode_biasbios/train_cls.npy
-data/biasbios/dev.pickle
-data/biasbios/gender2index.txt
-data/biasbios/profession2index.txt
-data/biasbios/test.pickle
-data/biasbios/train.pickle
-data/biasbios/word2index.txt
-data/cca_g2
-data/cca_g3
-data/cca_g4
-data/cca_g5
-data/cca_g6
-data/deepmoji/.DS_Store
-data/deepmoji/dev/neg_neg.npy
-data/deepmoji/dev/neg_pos.npy
-data/deepmoji/dev/pos_neg.npy
-data/deepmoji/dev/pos_pos.npy
-data/deepmoji/neg_neg.npy
-data/deepmoji/neg_pos.npy
-data/deepmoji/pos_neg.npy
-data/deepmoji/pos_pos.npy
-data/deepmoji/test/neg_neg.npy
-data/deepmoji/test/neg_pos.npy
-data/deepmoji/test/pos_neg.npy
-data/deepmoji/test/pos_pos.npy
-data/deepmoji/train/neg_neg.npy
-data/deepmoji/train/neg_pos.npy
-data/deepmoji/train/pos_neg.npy
-data/deepmoji/train/pos_pos.npy
-data/embeddings/.DS_Store
-data/embeddings/crawl-300d-2M.vec
-data/embeddings/crawl-300d-2M.vec.zip
-data/embeddings/glove.42B.300d.txt
-data/embeddings/glove.42B.300d.zip
-data/embeddings/kcca/vecs.kcca.cleaned_0.txt
-data/embeddings/kcca/vecs.kcca.cleaned_6000.txt
-data/embeddings/kcca/vecs.kcca.cleaned_7500.txt
-data/embeddings/vecs.150k.cleaned.txt
-data/embeddings/vecs.cca.cleaned.txt
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### PyCharm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+# JetBrains templates
+**___jb_tmp___
+
+### PyCharm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+.idea/sonarlint
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+#.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don’t work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.gitignore.io/api/git,linux,macos,python,windows,pycharm
+
+# data/embeddings/glove.42B.300d.txt
+# allen_logs/
+# .idea/
+
+# googlenews.50k.txt
+
+# sent_race/
+
+# data/emoji_sent_race_origin/
+# data/emoji_sent_race_mlp/
+# data/emoji_sent_race/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*.pickle
+*.pkl
+*.npy
+*.zip
+data/bert_encode_biasbios
+data/deepmoji
+data/emoji_sent_race_0.5
+data/emoji_sent_race_0.6
+data/emoji_sent_race_0.7
+data/emoji_sent_race_0.8
 data/embeddings/vecs.filtered.txt
 data/embeddings/vecs.gendered.txt
-data/embeddings/voc.txt
-data/emoji_sent_race_0.5/.DS_Store
-data/emoji_sent_race_0.5/dev/neg_neg.npy
-data/emoji_sent_race_0.5/dev/neg_pos.npy
-data/emoji_sent_race_0.5/dev/pos_neg.npy
-data/emoji_sent_race_0.5/dev/pos_pos.npy
-data/emoji_sent_race_0.5/P_svm.num-clfs=300.npy
-data/emoji_sent_race_0.5/test/neg_neg.npy
-data/emoji_sent_race_0.5/test/neg_pos.npy
-data/emoji_sent_race_0.5/test/pos_neg.npy
-data/emoji_sent_race_0.5/test/pos_pos.npy
-data/emoji_sent_race_0.5/train/neg_neg.npy
-data/emoji_sent_race_0.5/train/neg_pos.npy
-data/emoji_sent_race_0.5/train/pos_neg.npy
-data/emoji_sent_race_0.5/train/pos_pos.npy
-data/emoji_sent_race_0.6/.DS_Store
-data/emoji_sent_race_0.6/dev/neg_neg.npy
-data/emoji_sent_race_0.6/dev/neg_pos.npy
-data/emoji_sent_race_0.6/dev/pos_neg.npy
-data/emoji_sent_race_0.6/dev/pos_pos.npy
-data/emoji_sent_race_0.6/P_svm.num-clfs=300.npy
-data/emoji_sent_race_0.6/test/neg_neg.npy
-data/emoji_sent_race_0.6/test/neg_pos.npy
-data/emoji_sent_race_0.6/test/pos_neg.npy
-data/emoji_sent_race_0.6/test/pos_pos.npy
-data/emoji_sent_race_0.6/train/neg_neg.npy
-data/emoji_sent_race_0.6/train/neg_pos.npy
-data/emoji_sent_race_0.6/train/pos_neg.npy
-data/emoji_sent_race_0.6/train/pos_pos.npy
-data/emoji_sent_race_0.7/.DS_Store
-data/emoji_sent_race_0.7/dev/neg_neg.npy
-data/emoji_sent_race_0.7/dev/neg_pos.npy
-data/emoji_sent_race_0.7/dev/pos_neg.npy
-data/emoji_sent_race_0.7/dev/pos_pos.npy
-data/emoji_sent_race_0.7/P_svm.num-clfs=300.npy
-data/emoji_sent_race_0.7/test/neg_neg.npy
-data/emoji_sent_race_0.7/test/neg_pos.npy
-data/emoji_sent_race_0.7/test/pos_neg.npy
-data/emoji_sent_race_0.7/test/pos_pos.npy
-data/emoji_sent_race_0.7/train/neg_neg.npy
-data/emoji_sent_race_0.7/train/neg_pos.npy
-data/emoji_sent_race_0.7/train/pos_neg.npy
-data/emoji_sent_race_0.7/train/pos_pos.npy
-data/emoji_sent_race_0.8/.DS_Store
-data/emoji_sent_race_0.8/dev/neg_neg.npy
-data/emoji_sent_race_0.8/dev/neg_pos.npy
-data/emoji_sent_race_0.8/dev/pos_neg.npy
-data/emoji_sent_race_0.8/dev/pos_pos.npy
-data/emoji_sent_race_0.8/P_svm.num-clfs=300.npy
-data/emoji_sent_race_0.8/test/neg_neg.npy
-data/emoji_sent_race_0.8/test/neg_pos.npy
-data/emoji_sent_race_0.8/test/pos_neg.npy
-data/emoji_sent_race_0.8/test/pos_pos.npy
-data/emoji_sent_race_0.8/train/neg_neg.npy
-data/emoji_sent_race_0.8/train/neg_pos.npy
-data/emoji_sent_race_0.8/train/pos_neg.npy
-data/emoji_sent_race_0.8/train/pos_pos.npy
-data/kcca_linear_0
-data/kcca_linear_1
-data/kcca_linear_2
-data/kcca_linear_3
-data/kcca_linear_4
-data/lists/first_names_clean.txt
-data/lists/gender_specific_full.json
-data/lists/professions.json
-data/lists/README.md
+data/embeddings/crawl-300d-2M.vec
+data/embeddings/glove.42B.300d.txt
+data/saved_models
 
+
+# data/
+# data/.DS_Store
+# data/bert_encode_biasbios/dev_avg.npy
+# data/bert_encode_biasbios/dev_cls.npy
+# data/bert_encode_biasbios/test_avg.npy
+# data/bert_encode_biasbios/test_cls.npy
+# data/bert_encode_biasbios/train_avg.npy
+# data/bert_encode_biasbios/train_cls.npy
+# data/biasbios/dev.pickle
+# data/biasbios/gender2index.txt
+# data/biasbios/profession2index.txt
+# data/biasbios/test.pickle
+# data/biasbios/train.pickle
+# data/biasbios/word2index.txt
+# data/cca_g2
+# data/cca_g3
+# data/cca_g4
+# data/cca_g5
+# data/cca_g6
+# data/deepmoji/.DS_Store
+# data/deepmoji/dev/neg_neg.npy
+# data/deepmoji/dev/neg_pos.npy
+# data/deepmoji/dev/pos_neg.npy
+# data/deepmoji/dev/pos_pos.npy
+# data/deepmoji/neg_neg.npy
+# data/deepmoji/neg_pos.npy
+# data/deepmoji/pos_neg.npy
+# data/deepmoji/pos_pos.npy
+# data/deepmoji/test/neg_neg.npy
+# data/deepmoji/test/neg_pos.npy
+# data/deepmoji/test/pos_neg.npy
+# data/deepmoji/test/pos_pos.npy
+# data/deepmoji/train/neg_neg.npy
+# data/deepmoji/train/neg_pos.npy
+# data/deepmoji/train/pos_neg.npy
+# data/deepmoji/train/pos_pos.npy
+# data/embeddings/.DS_Store
+# data/embeddings/crawl-300d-2M.vec
+# data/embeddings/crawl-300d-2M.vec.zip
+# data/embeddings/glove.42B.300d.txt
+# data/embeddings/glove.42B.300d.zip
+# data/embeddings/kcca/vecs.kcca.cleaned_0.txt
+# data/embeddings/kcca/vecs.kcca.cleaned_6000.txt
+# data/embeddings/kcca/vecs.kcca.cleaned_7500.txt
+# data/embeddings/vecs.150k.cleaned.txt
+# data/embeddings/vecs.cca.cleaned.txt
+# data/embeddings/vecs.filtered.txt
+# data/embeddings/vecs.gendered.txt
+# data/embeddings/voc.txt
+# data/emoji_sent_race_0.5/.DS_Store
+# data/emoji_sent_race_0.5/dev/neg_neg.npy
+# data/emoji_sent_race_0.5/dev/neg_pos.npy
+# data/emoji_sent_race_0.5/dev/pos_neg.npy
+# data/emoji_sent_race_0.5/dev/pos_pos.npy
+# data/emoji_sent_race_0.5/P_svm.num-clfs=300.npy
+# data/emoji_sent_race_0.5/test/neg_neg.npy
+# data/emoji_sent_race_0.5/test/neg_pos.npy
+# data/emoji_sent_race_0.5/test/pos_neg.npy
+# data/emoji_sent_race_0.5/test/pos_pos.npy
+# data/emoji_sent_race_0.5/train/neg_neg.npy
+# data/emoji_sent_race_0.5/train/neg_pos.npy
+# data/emoji_sent_race_0.5/train/pos_neg.npy
+# data/emoji_sent_race_0.5/train/pos_pos.npy
+# data/emoji_sent_race_0.6/.DS_Store
+# data/emoji_sent_race_0.6/dev/neg_neg.npy
+# data/emoji_sent_race_0.6/dev/neg_pos.npy
+# data/emoji_sent_race_0.6/dev/pos_neg.npy
+# data/emoji_sent_race_0.6/dev/pos_pos.npy
+# data/emoji_sent_race_0.6/P_svm.num-clfs=300.npy
+# data/emoji_sent_race_0.6/test/neg_neg.npy
+# data/emoji_sent_race_0.6/test/neg_pos.npy
+# data/emoji_sent_race_0.6/test/pos_neg.npy
+# data/emoji_sent_race_0.6/test/pos_pos.npy
+# data/emoji_sent_race_0.6/train/neg_neg.npy
+# data/emoji_sent_race_0.6/train/neg_pos.npy
+# data/emoji_sent_race_0.6/train/pos_neg.npy
+# data/emoji_sent_race_0.6/train/pos_pos.npy
+# data/emoji_sent_race_0.7/.DS_Store
+# data/emoji_sent_race_0.7/dev/neg_neg.npy
+# data/emoji_sent_race_0.7/dev/neg_pos.npy
+# data/emoji_sent_race_0.7/dev/pos_neg.npy
+# data/emoji_sent_race_0.7/dev/pos_pos.npy
+# data/emoji_sent_race_0.7/P_svm.num-clfs=300.npy
+# data/emoji_sent_race_0.7/test/neg_neg.npy
+# data/emoji_sent_race_0.7/test/neg_pos.npy
+# data/emoji_sent_race_0.7/test/pos_neg.npy
+# data/emoji_sent_race_0.7/test/pos_pos.npy
+# data/emoji_sent_race_0.7/train/neg_neg.npy
+# data/emoji_sent_race_0.7/train/neg_pos.npy
+# data/emoji_sent_race_0.7/train/pos_neg.npy
+# data/emoji_sent_race_0.7/train/pos_pos.npy
+# data/emoji_sent_race_0.8/.DS_Store
+# data/emoji_sent_race_0.8/dev/neg_neg.npy
+# data/emoji_sent_race_0.8/dev/neg_pos.npy
+# data/emoji_sent_race_0.8/dev/pos_neg.npy
+# data/emoji_sent_race_0.8/dev/pos_pos.npy
+# data/emoji_sent_race_0.8/P_svm.num-clfs=300.npy
+# data/emoji_sent_race_0.8/test/neg_neg.npy
+# data/emoji_sent_race_0.8/test/neg_pos.npy
+# data/emoji_sent_race_0.8/test/pos_neg.npy
+# data/emoji_sent_race_0.8/test/pos_pos.npy
+# data/emoji_sent_race_0.8/train/neg_neg.npy
+# data/emoji_sent_race_0.8/train/neg_pos.npy
+# data/emoji_sent_race_0.8/train/pos_neg.npy
+# data/emoji_sent_race_0.8/train/pos_pos.npy
+# data/kcca_linear_0
+# data/kcca_linear_1
+# data/kcca_linear_2
+# data/kcca_linear_3
+# data/kcca_linear_4
+# data/lists/first_names_clean.txt
+# data/lists/gender_specific_full.json
+# data/lists/professions.json
+# data/lists/README.md
+
+# notebooks/
+# notebooks/.ipynb_checkpoints/notebook_cca_generalTests-checkpoint.ipynb
+# notebooks/.ipynb_checkpoints/notebook_kcca_generalTests-checkpoint.ipynb
+# notebooks/notebook_cca_generalTests.ipynb
+# notebooks/notebook_kcca_generalTests.ipynb
+notebooks_saved/
 notebooks/
-notebooks/.ipynb_checkpoints/notebook_cca_generalTests-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/notebook_kcca_generalTests-checkpoint.ipynb
-notebooks/notebook_cca_generalTests.ipynb
-notebooks/notebook_kcca_generalTests.ipynb
+notebooks/word-embedding
+notebooks/*.pdf
 
 
 
