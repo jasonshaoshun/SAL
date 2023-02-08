@@ -23,8 +23,16 @@ Given an example representation of X in the shape of (number of samples, number 
 Start a new virtual environment:
 
 ```sh
-conda create -n spectral_removal python=3.7 anaconda
-conda activate requirement
+conda create -n SAL python=3.7 anaconda
+conda activate SAL
+```
+
+Install jsonnet from conda-forge and other dependencies from requirement.txt
+
+```sh
+conda install -c conda-forge jsonnet
+pip install -r requirements.txt
+
 ```
 
 ## Setup
@@ -35,12 +43,17 @@ Use the following script to download the datasets used in this repository:
 ./download_data.sh
 ```
 
-## Word Embedding Experiments (Section 5.1 in the paper)
+Download EN library from spaCy
+
+```sh
+
+```
+
+## Word Embedding Experiments (Section 6.1 in the paper)
 
 ```py
 
-python src/data/to_word2vec_format.py data/embeddings/glove.42B
-.300d.txt
+python src/data/to_word2vec_format.py data/embeddings/glove.42B.300d.txt
 
 python src/data/filter_vecs.py \
 --input-path data/embeddings/glove.42B.300d.txt \
