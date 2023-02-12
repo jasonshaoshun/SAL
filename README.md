@@ -45,8 +45,8 @@ Use the following script to download the datasets used in this repository:
 
 Download EN library from spaCy
 
-```sh
-
+```py
+python -m spacy download en
 ```
 
 ## Word Embedding Experiments (Section 6.1 in the paper)
