@@ -63,9 +63,13 @@ python src/data/filter_vecs.py \
 --keep-names 
 ```
 
-And run the notebook [notebook](notebooks/notebook_generalTests_sal.ipynb)
+And run the notebook [notebook](notebooks/notebook_word-embedding.ipynb)
 
-## Controlled Demographic experiments (Section 5.2.1 in the paper)
+To run the Word similarity Experiments (table 1)
+
+Please check the notebook [notebook](notebooks/simlex_SAL.ipynb) for our method, and [notebook](notebooks/simlex_INLP.ipynb) for INLP
+
+## Controlled Demographic experiments (Section 6.2.1 in the paper)
 
 export PYTHONPATH=/path_to/nullspace_projection
 
@@ -73,9 +77,10 @@ export PYTHONPATH=/path_to/nullspace_projection
 ./run_deepmoji_debiasing.sh
 ```
 
-In order to recreate the evaluation used in the paper, check out the following [sal notebook](notebooks/notebook_FairClassification_sal.ipynb) and [ksal notebook](notebooks/notebook_FairClassification_ksal.ipynb)
+In order to recreate the evaluation used in the paper, check out the following [sal notebook](notebooks/notebook_fair-sentiment.ipynb) 
+<!-- and [ksal notebook](notebooks/notebook_FairClassification_ksal.ipynb) -->
 
-## Bias Bios experiments (Section 5.2.2 in the paper)
+## Bias Bios experiments (Section 6.2.2 in the paper)
 
 Assumes the bias-in-bios dataset from [De-Arteaga, Maria, et al. 2019](https://arxiv.org/abs/1901.09451) saved at `data/biasbios/BIOS.pkl`.
 
@@ -90,10 +95,12 @@ python src/data/create_dataset_biasbios.py \
 ./run_bias_bios.sh
 ```
 
-Run the BERT experiments in [BERT sal notebook](notebooks/biasbios_bert_sal.ipynb) and [BERT ksal notebook](notebooks/biasbios_bert_ksal.ipynb)
+Run the BERT experiments in [BERT sal notebook](notebooks/notebook_fair-profession_bert.ipynb) 
+<!-- and [BERT ksal notebook](notebooks/biasbios_bert_ksal.ipynb) -->
 
-Run the FastText experiments in [FastText sal notebook](notebooks/biasbios_fasttext_sal.ipynb) and [FastText ksal notebook](notebooks/biasbios_fasttext_ksal.ipynb)
+Run the FastText experiments in [FastText sal notebook](notebooks/biasbios_fair-profession_fasttext.ipynb) 
+<!-- and [FastText ksal notebook](notebooks/biasbios_fasttext_ksal.ipynb) -->
 
 # Trained Models
 
-We will public the code and trained models once the paper is accepted
+We will release the model later
