@@ -501,8 +501,6 @@ notebooks/word-embedding/
 notebooks/temp/
 notebooks/*.pdf
 
-notebooks/word-embedding
-notebooks/*.pdf
 
 
 
