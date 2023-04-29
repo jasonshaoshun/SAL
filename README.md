@@ -100,7 +100,3 @@ Run the BERT experiments in [BERT sal notebook](notebooks/notebook_fair-professi
 
 Run the FastText experiments in [FastText sal notebook](notebooks/biasbios_fair-profession_fasttext.ipynb) 
 <!-- and [FastText ksal notebook](notebooks/biasbios_fasttext_ksal.ipynb) -->
-
-# Trained Models
-
-We will release the model later
